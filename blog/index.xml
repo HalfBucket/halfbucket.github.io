@@ -2,24 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on My New Hugo Site</title>
-    <link>https://halfbucket.github.io/blog/</link>
+    <link>http://example.org/blog/</link>
     <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2020 10:03:02 +0800</lastBuildDate>
     
-	<atom:link href="https://halfbucket.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MyFirstBlog</title>
-      <link>https://halfbucket.github.io/blog/myfirstblog/</link>
-      <pubDate>Fri, 03 Apr 2020 10:03:02 +0800</pubDate>
+      <title></title>
+      <link>http://example.org/blog/mybatis&#43;mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://halfbucket.github.io/blog/myfirstblog/</guid>
-      <description>hugo Resume 
-Created from Start Bootstrap - Resume.
-This is basically a single-page website with auto-scrolling based on left-hand nav. Dedicated project/publications pages allow more detail. Includes a client-side search powered by fuse.js at &amp;lsquo;/search&amp;rsquo; but currently theme does not link to that anywhere. Includes an /admin endpoint that can allow authorized users to use a WYSIWYG editor and commit files back to markdown, but with a Wordpress/CMS like experience.</description>
+      <guid>http://example.org/blog/mybatis&#43;mysql/</guid>
+      <description>mybatis+mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&amp;quot;chcp 65001&amp;quot;进入utf8编码cmd；使用&amp;quot;chcp 936&amp;quot;回到gbk编码cmd； 字符集设置   mysql中查询字符集指令
+show variables like &#39;%character%&#39;;
+show variables like &#39;collation%&#39;; 
+对应的查询结果如下
++-------------------------- +--------------------------------------+| Variable_name | Value |+--------------------------+--------------------------------------+| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql5535/share/charsets/</description>
     </item>
     
   </channel>
