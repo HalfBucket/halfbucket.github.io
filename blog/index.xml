@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on My New Hugo Site</title>
-    <link>https://first.github.io/blog/</link>
+    <link>https://halfbucket.github.io/blog/</link>
     <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2020 10:03:02 +0800</lastBuildDate>
     
-	<atom:link href="https://first.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://halfbucket.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MyFirstBlog</title>
-      <link>https://first.github.io/blog/myfirstblog/</link>
+      <link>https://halfbucket.github.io/blog/myfirstblog/</link>
       <pubDate>Fri, 03 Apr 2020 10:03:02 +0800</pubDate>
       
-      <guid>https://first.github.io/blog/myfirstblog/</guid>
+      <guid>https://halfbucket.github.io/blog/myfirstblog/</guid>
       <description>hugo Resume 
 Created from Start Bootstrap - Resume.
 This is basically a single-page website with auto-scrolling based on left-hand nav. Dedicated project/publications pages allow more detail. Includes a client-side search powered by fuse.js at &amp;lsquo;/search&amp;rsquo; but currently theme does not link to that anywhere. Includes an /admin endpoint that can allow authorized users to use a WYSIWYG editor and commit files back to markdown, but with a Wordpress/CMS like experience.</description>
