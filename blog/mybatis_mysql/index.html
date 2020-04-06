@@ -29,7 +29,8 @@
 <meta property="og:description" content="mybatis&#43;mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&quot;chcp 65001&quot;进入utf8编码cmd；使用&quot;chcp 936&quot;回到gbk编码cmd； 字符集设置   mysql中字符集
 show variables like &#39;%character%&#39;;
 show variables like &#39;collation%&#39;; 
-对应的查询结果如下 &#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/`` 修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。" />
+对应的查询结果如下
+&#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/``修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://halfbucket.github.io/blog/mybatis_mysql/" />
 <meta property="article:published_time" content="2020-04-03T10:03:02+08:00" />
@@ -38,7 +39,8 @@ show variables like &#39;collation%&#39;;
 <meta itemprop="description" content="mybatis&#43;mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&quot;chcp 65001&quot;进入utf8编码cmd；使用&quot;chcp 936&quot;回到gbk编码cmd； 字符集设置   mysql中字符集
 show variables like &#39;%character%&#39;;
 show variables like &#39;collation%&#39;; 
-对应的查询结果如下 &#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/`` 修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。">
+对应的查询结果如下
+&#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/``修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。">
 <meta itemprop="datePublished" content="2020-04-03T10:03:02&#43;08:00" />
 <meta itemprop="dateModified" content="2020-04-03T10:03:02&#43;08:00" />
 <meta itemprop="wordCount" content="80">
@@ -50,7 +52,8 @@ show variables like &#39;collation%&#39;;
 <meta name="twitter:description" content="mybatis&#43;mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&quot;chcp 65001&quot;进入utf8编码cmd；使用&quot;chcp 936&quot;回到gbk编码cmd； 字符集设置   mysql中字符集
 show variables like &#39;%character%&#39;;
 show variables like &#39;collation%&#39;; 
-对应的查询结果如下 &#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/`` 修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。"/>
+对应的查询结果如下
+&#43;-------------------------- &#43;--------------------------------------&#43;| Variable_name | Value |&#43;--------------------------&#43;--------------------------------------&#43;| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/``修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。"/>
 
   </head>
 
@@ -159,25 +162,24 @@ show variables like &#39;collation%&#39;;
 <p>mysql中字符集</p>
 <p><code>show variables like '%character%';</code><br>
 <code>show variables like 'collation%'; </code></p>
-<h4 id="对应的查询结果如下">对应的查询结果如下</h4>
+<p>对应的查询结果如下</p>
 <pre><code>+--------------------------   +--------------------------------------+
- | Variable_name            | Value                                |
- +--------------------------+--------------------------------------+
- | character_set_client     | utf8                                 |
- | character_set_connection | utf8                                 |
- | character_set_database   | utf8                                 |
- | character_set_filesystem | binary                               |
- | character_set_results    | utf8                                 |
- | character_set_server     | utf8                                 |
- | character_set_system     | utf8                                 |
- | character_sets_dir       | /usr/local/mysql/share/charsets/``
-</code></pre>
-<p>修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。</p>
+| Variable_name            | Value                                |
++--------------------------+--------------------------------------+
+| character_set_client     | utf8                                 |
+| character_set_connection | utf8                                 |
+| character_set_database   | utf8                                 |
+| character_set_filesystem | binary                               |
+| character_set_results    | utf8                                 |
+| character_set_server     | utf8                                 |
+| character_set_system     | utf8                                 |
+| character_sets_dir       | /usr/local/mysql/share/charsets/``
+</code></pre><p>修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。</p>
 </li>
 <li>
 <p>Url的设置
 配置url是加上 <code>?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8</code></p>
-<p>在xml中配置时<code>&amp;</code>要使用转义符<code>&amp;amp;</code>.</p>
+<p>在xml中配置时<code>&amp;</code>要使用转义符<code>&amp;amp;</code>替代.</p>
 </li>
 </ol>
 <ul class="pa0">
