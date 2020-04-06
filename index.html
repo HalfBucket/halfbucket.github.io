@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://halfbucket.github.io/" />
-<meta property="og:updated_time" content="2020-04-03T10:03:02+08:00" />
+<meta property="og:updated_time" content="2020-04-06T08:58:13+08:00" />
 <meta itemprop="name" content="My New Hugo Site">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My New Hugo Site"/>
@@ -122,18 +122,25 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="http://halfbucket.github.io/blog/mybatis_mysql/" class="color-inherit dim link">
-            MyFirstBlog
+          <a href="http://halfbucket.github.io/blog/newblog/" class="color-inherit dim link">
+            Newblog
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          mybatis+mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&quot;chcp 65001&quot;进入utf8编码cmd；使用&quot;chcp 936&quot;回到gbk编码cmd； 字符集设置   mysql中查询字符集指令
-show variables like '%character%';
-show variables like 'collation%'; 
-对应的查询结果如下
-+-------------------------- +--------------------------------------+| Variable_name | Value |+--------------------------+--------------------------------------+| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql5535/share/charsets/
+          Windows下Hugo的安装与使用 需要的资源准备（前两项需自行了解）   Git的下载与安装、简单git指令的熟悉与使用。
+  Github账号及其简单的了解。
+  Hugo安装包下载。
+地址：https://github.com/spf13/hugo/releases
+  安装Hugo   新建Hugo的主文件夹：D/Hugo;
+  新建Hugo的程序放置位置：D/Hugo/bin;
+将下载好的Hugo.zip文件中的三个文件解压至此文件夹，其中包含一个.exe的可执行文件，该文件可以在控制台中直接运行，无需安装。
+  将 ;D/Hugo/bin添加至系统环境变量的PATH值末尾。
+打开命令行键入hugo help,若运行成功则Hugo安装成功。（注意D/Hugo/bin下的.exe文件名若不为hugo，需改成hugo。）
+  新建网站  在Hugo文件夹下新建 D/Hugo/sites作为我们网站的统一放置路径。 在命令行中执行以下命令新建网站 C:\Users\LH&gt; D: //进入d盘命令 D:\&gt; hugo //进入hugo文件夹 D:\Hugo&gt; cd sites //进入sites文件夹 D:\Hugo\sites&gt; hugo new site example.com //新建example.com的文件夹 若执行成功，则可以看到D:\Hugo\sites\example.com的文件夹。
+ 为网站添加主题   将example.com文件夹初始化为git仓库
+ D:\Hugo\sites&gt; git init; //将当前文件夹初始化 为git仓库 Initialized empty Git repository in D:\Hugo\sites/.git/ 此处默认已安装好git环境，若未安装请自行了解。
         </div>
-          <a href="http://halfbucket.github.io/blog/mybatis_mysql/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="http://halfbucket.github.io/blog/newblog/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -160,6 +167,33 @@ Created from Start Bootstrap - Resume.
 This is basically a single-page website with auto-scrolling based on left-hand nav. Dedicated project/publications pages allow more detail. Includes a client-side search powered by fuse.js at &lsquo;/search&rsquo; but currently theme does not link to that anywhere. Includes an /admin endpoint that can allow authorized users to use a WYSIWYG editor and commit files back to markdown, but with a Wordpress/CMS like experience.
         </div>
           <a href="http://halfbucket.github.io/blog/myfirstblog/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://halfbucket.github.io/blog/mybatis_mysql/" class="color-inherit dim link">
+            mysql中文设置
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          mybatis+mysql字符集设置汇总 编码格式 1. 程序编码格式设置 开发程序编码格式设置，一般在程序右下角可以设置。2. mysql 图形化化工具及使用cmd的编码格式1. 如sqlyog等图形化工具的编码格式设置2. cmd命令行的编码格式设置cmd的默认格式是gbk；使用&quot;chcp 65001&quot;进入utf8编码cmd；使用&quot;chcp 936&quot;回到gbk编码cmd； 字符集设置   mysql中字符集
+show variables like '%character%';
+show variables like 'collation%'; 
+对应的查询结果如下 +-------------------------- +--------------------------------------+| Variable_name | Value |+--------------------------+--------------------------------------+| character_set_client | utf8 || character_set_connection | utf8 || character_set_database | utf8 || character_set_filesystem | binary || character_set_results | utf8 || character_set_server | utf8 || character_set_system | utf8 || character_sets_dir | /usr/local/mysql/share/charsets/`` 修改其中所有的&quot;Value&quot;至需要的模式即可。另外可通过修改配置文件的方式修改其中的部分属性。
+        </div>
+          <a href="http://halfbucket.github.io/blog/mybatis_mysql/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
