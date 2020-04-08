@@ -3,31 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://halfbucket.github.io/blog/</loc>
+    <loc>https://halfbucket.github.io/post/</loc>
+    <lastmod>2020-04-07T10:57:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halfbucket.github.io/post/useful_blog/</loc>
+    <lastmod>2020-04-07T10:57:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halfbucket.github.io/</loc>
+    <lastmod>2020-04-07T10:57:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://halfbucket.github.io/post/hugo_guide_on_window/</loc>
     <lastmod>2020-04-06T08:58:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://halfbucket.github.io/</loc>
-    <lastmod>2020-04-06T08:58:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://halfbucket.github.io/blog/newblog/</loc>
-    <lastmod>2020-04-06T08:58:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://halfbucket.github.io/blog/mybatis_mysql/</loc>
+    <loc>https://halfbucket.github.io/post/mybatis_mysql/</loc>
     <lastmod>2020-04-03T10:03:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://halfbucket.github.io/categories/</loc>
+    <loc>https://halfbucket.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://halfbucket.github.io/tags/</loc>
+    <loc>https://halfbucket.github.io/tags/</loc>
   </url>
   
 </urlset>
